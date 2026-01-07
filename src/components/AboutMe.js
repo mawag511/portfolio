@@ -1,5 +1,5 @@
 import { Container, Row } from "react-bootstrap"
-import myPDF from "../assets/CV_european_format.pdf";
+import myPDF from "../assets/CV.pdf";
 
 export const AboutMe = () => {
     return (
@@ -22,6 +22,9 @@ export const AboutMe = () => {
                         </h2>
                         <h2>
                             • Worked with several SQL Database Management Systems (both OLTP and OLAP);
+                        </h2>
+                        <h2>
+                            • Worked in the team that won the "Best project for DWH integration in retail" award in <a href="https://www.comnews-conferences.ru/ru/conference/awards2025/postreliz">ComNews Awards 2025</a>;
                         </h2>
                         <h2>
                             • Worked on commercialized projects written in Kotlin (for android apps) and C# (for windows desktop apps);

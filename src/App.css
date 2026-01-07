@@ -434,9 +434,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .mySwiper .item{
-  width: 90%;
   margin: 30px auto 30px auto;
-  object-fit: scale-down;
+  width: 450px;  
+  height: 350px; 
+  object-fit: scale-down; 
+  object-position: center;
 }
 
 .mySwiper .swiper-button-next { 
