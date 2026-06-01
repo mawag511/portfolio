@@ -32,14 +32,14 @@
     }, 
     "project_2": {
       "title": "Client Support Bot",
-      "description": "Bot perTelegram",
-      "content": "Bot per supporto clienti di aziende che lavorano con iniettori e simile attrezzatura tecnica. Ha la possibilità di mandare informazioni, a richiesta, dell'azienda, degli iniettori e della loro disponibilità. Ha anche la funzionalità di salvataggio dell'ID della chat con l'utente per poter inviare informazioni appena vi è disponibilità di un iniettore richiesto in precedenza e non disponibile precedentemente.",
+      "description": "Bot per Telegram",
+      "content": "Bot per supporto clienti di aziende che lavorano con iniettori e simile attrezzatura tecnica. Ha possibilità di mandare, a richiesta, informazioni dell'azienda, degli iniettori e della loro disponibilità. Ha anche la funzionalità di salvataggio dell'ID della chat con l'utente per poter inviare informazioni appena vi è disponibilità di un iniettore richiesto in precedenza e non disponibile precedentemente.",
       "keywords": "Parole chiave: Telegram, Python, SQLite DB, Machine Learning, Jupyter Notebook, modello sequenziale (Sequential Model)"
     }, 
     "project_3": {
       "title": "Unscammed",
       "description": "Applicazione desktop",
-      "content": "Software dove l'input dell'utente viene controllato da tre difersi algoritmi sulla possibilità di messaggio scam/spam. Per allenare gli algoritmi Naive-Bayes, Logistic Regression e SVM sono stati utilizzati diversi dataset, dopodichè gli algoritmi sono stati importati nel back-end dell'applicazione.",
+      "content": "Software dove l'input dell'utente viene controllato da tre diversi algoritmi sulla possibilità di messaggio scam/spam. Per allenare gli algoritmi Naive-Bayes, Logistic Regression e SVM sono stati utilizzati diversi dataset, dopodichè gli algoritmi sono stati importati nel back-end dell'applicazione.",
       "keywords": "Parole chiave: Python, PyQT5, Machine Learning, Jupyter Notebook, modello Naive-Bayes, modello di regressione logistica (Logistic Regression Model), modello a macchine a vettori di supporto (Support Vector Machine Model)"
     }, 
     "project_4": {
@@ -69,7 +69,7 @@
     "project_8": {
       "title": "Pet Finder",
       "description": "Applicazione Android",
-      "content": "Applicazione Android potenzialmente utile per rifugi di animali e volontari. Il funzionamento prevede il salvataggio di percorsi assieme alle informazioni di animali randagi trovati in essi. L'applicazione può aiutare a monitorare le vite di animali in zona.",
+      "content": "Applicazione Android potenzialmente utile per rifugi di animali e volontari. Il funzionamento prevede il salvataggio di percorsi assieme alle informazioni di animali randagi trovati in essi. L'applicazione può aiutare a monitorare la vita di animali in zona.",
       "keywords": "Parole chiave: Kotlin, Room, Model-View-ViewModel pattern, Google Maps API"
     }, 
     "project_9": {
