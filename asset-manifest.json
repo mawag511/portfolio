@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2d570ffc.css",
-    "main.js": "/portfolio/static/js/main.6b6c0238.js",
+    "main.js": "/portfolio/static/js/main.7eff3645.js",
     "static/js/453.3f1fb51b.chunk.js": "/portfolio/static/js/453.3f1fb51b.chunk.js",
     "static/media/crpit1.webp": "/portfolio/static/media/crpit1.ff60f33eff18e5a4a2fb.webp",
-    "static/media/CV_Maria_(rus).pdf": "/portfolio/static/media/CV_Maria_(rus).9f216f66608f4df280f0.pdf",
+    "static/media/CV_Maria_(rus).pdf": "/portfolio/static/media/CV_Maria_(rus).1e94a140d99d4546a892.pdf",
     "static/media/CV_Maria_(ita).pdf": "/portfolio/static/media/CV_Maria_(ita).ce6419f76476a73b14b3.pdf",
     "static/media/CV_Maria_(eng).pdf": "/portfolio/static/media/CV_Maria_(eng).79e80d65817c09de1500.pdf",
     "static/media/cbot3.webp": "/portfolio/static/media/cbot3.7d98f0d5d720801932c2.webp",
@@ -48,11 +48,11 @@
     "static/media/linkedin-logo.webp": "/portfolio/static/media/linkedin-logo.1aac018cd3888a063318.webp",
     "index.html": "/portfolio/index.html",
     "main.2d570ffc.css.map": "/portfolio/static/css/main.2d570ffc.css.map",
-    "main.6b6c0238.js.map": "/portfolio/static/js/main.6b6c0238.js.map",
+    "main.7eff3645.js.map": "/portfolio/static/js/main.7eff3645.js.map",
     "453.3f1fb51b.chunk.js.map": "/portfolio/static/js/453.3f1fb51b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d570ffc.css",
-    "static/js/main.6b6c0238.js"
+    "static/js/main.7eff3645.js"
   ]
 }
