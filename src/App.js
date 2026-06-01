@@ -1,4 +1,5 @@
 import './App.css';
+import './i18n';
 import { NavBar } from './components/NavBar.js';
 import { Banner } from './components/Banner.js';
 import { AboutMe } from './components/AboutMe.js';

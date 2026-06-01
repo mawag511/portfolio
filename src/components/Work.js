@@ -37,98 +37,100 @@ import proj9Img1 from "../assets/webp/memory1.webp";
 import proj9Img2 from "../assets/webp/memory2.webp";
 import proj9Img3 from "../assets/webp/memory3.webp";
 import proj9Img4 from "../assets/webp/memory4.webp";
+import { useTranslation } from "react-i18next";
 
 export const Work = () => {
+  const { t, i18n } = useTranslation();
 
   const works = [
     {
-      title: "Filmer",
-      description: "Discord Bot",
+      title: t('projects.project_1.title'),
+      description: t('projects.project_1.description'),
       imgUrl: proj1Img1,
-      content: "The purpose of the bot is to maintain a database of movies and videogames that are to be watched/played or that have been watched/played already. Moreover, the bot can also randomly decide a movie or game for the server to watch/play (among the ones saved in the DB).",
-      keywords: "Keywords: Discord, Python, SQLite DB (for the moment), Symmetric Key Encryption",
+      content: t('projects.project_1.content'),
+      keywords: t('projects.project_1.keywords'),
       picture1: proj1Img2,
       picture2: proj1Img3,
       picture3: proj1Img4
     },
     {
-      title: "Client Support Bot",
-      description: "Telegram Bot",
+      title: t('projects.project_2.title'),
+      description: t('projects.project_2.description'),
       imgUrl: proj2Img1,
-      content: "Works as a customer support service for companies and firms that work with injectors and similar technical equipment. The bot is able to send information (upon request) about the firm itself, about injectors and about their availability. It can also save a user's chat ID in order to notify them about an injector's availability later on, in case the injector they looked for was not available when requested.", 
-      keywords: "Keywords: Telegram, Python, SQLite DB, Machine Learning, Jupyter Notebook, Sequential Model",
+      content: t('projects.project_2.content'),
+      keywords: t('projects.project_2.keywords'),
       picture1: proj2Img2,
       picture2: proj2Img3,
       picture3: proj2Img4,
     },
     {
-      title: "Unscammed",
-      description: "Desktop Application",
+      title: t('projects.project_3.title'),
+      description: t('projects.project_3.description'),
       imgUrl: proj3Img1,
-      content: "Software where user input is checked against three different algorithms on whether it is a spam/scam or ham message. Different datasets were used in order to train a Naive-Bayes, a Logistic Regression and a SVM algorithm, which are then imported to the back-end of the application and worked with.", 
-      keywords: "Keywords: Python, PyQT5, Machine Learning, Jupyter Notebook, Naive-Bayes Model, Logistic Regression Model, Support Vector Machine Model",
+      content: t('projects.project_3.content'),
+      keywords: t('projects.project_3.keywords'),
       picture1: proj3Img2,
       picture2: proj3Img3,
       picture3: proj3Img4,
     },
     {
-      title: "DWH 'Par'",
-      description: "Data Warehouse and BI System",
+      title: t('projects.project_4.title'),
+      description: t('projects.project_4.description'),
       imgUrl: proj4Img1,
-      content: "Simulation of the creation of an online shop's Data WareHouse, with its ETL process and BI visualization. Provided below are the Logical ER Model, the DAG's Pipeline and the Dashboard Mockup.",
-      keywords: "Keywords: DWH, BI, PostgreSQL, Inmon's methodology, ETL, Apache Airflow, PIX BI",
+      content: t('projects.project_4.content'),
+      keywords: t('projects.project_4.keywords'),
       picture1: proj4Img2,
       picture2: proj4Img3,
       picture3: proj4Img4
     },
     {
-      title: "Common Rail Piezo Injector Tester",
-      description: "Desktop Application",
+      title: t('projects.project_5.title'),
+      description: t('projects.project_5.description'),
       imgUrl: proj5Img1,
-      content: "Software useful when it comes to registering injector tests (their values and graphs when possible) of different clients. Aside from saving test results, injectors and client information in the database, the software also allows to export a PDF with the necessary data.",
-      keywords: "Keywords: C#, Winforms, SQLite DB, Generic Repository Pattern",
+      content: t('projects.project_5.content'),
+      keywords: t('projects.project_5.keywords'),
       picture1: proj5Img2,
       picture2: proj5Img3,
       picture3: proj5Img4
     },
     {
-      title: "Denso QR Coder", 
-      description: "Android Application",
+      title: t('projects.project_6.title'),
+      description: t('projects.project_6.description'),
       imgUrl: proj6Img1,
-      content: "Database of Denso injectors, which allows to CODE inserted test values into the injector code or DECODE the inputted code into test values.",
-      keywords: "Keywords: Kotlin, Room, Model-View-ViewModel pattern",
+      content: t('projects.project_6.content'),
+      keywords: t('projects.project_6.keywords'),
       picture1: proj6Img2,
       picture2: proj6Img3,
       picture3: proj6Img4,
      
     },
     {
-      title: "Bosch IMA Data", 
-      description: "Android Application",
+      title: t('projects.project_7.title'), 
+      description: t('projects.project_7.description'),
       imgUrl: proj7Img1,
-      content: "Database of BOSCH injectors (IMA 6-7-9 and ISA 7), which allows to CODE inserted test values (including ISA letter for ISA 7) into the injector code.",
-      keywords: "Keywords: Kotlin, Room, Model-View-ViewModel pattern",
+      content: t('projects.project_7.content'),
+      keywords: t('projects.project_7.keywords'),
       picture1: proj7Img2,
       picture2: proj7Img3,
       picture3: proj7Img4,
      
     },
     {
-      title: "Pet Finder",
-      description: "Android Application",
+      title: t('projects.project_8.title'), 
+      description: t('projects.project_8.description'),
       imgUrl: proj8Img1,
-      content: "Android application possibly useful for animal shelters and volunteers. The purpose is to save a route/walk done by the user and add information about stray animals seen during it. The app can be useful to monitor the life and/or problems of stray animals in the area.",
-      keywords: "Keywords: Kotlin, Room, Model-View-ViewModel pattern, Google Maps API",
+      content: t('projects.project_8.content'),
+      keywords: t('projects.project_8.keywords'),
       picture1: proj8Img2,
       picture2: proj8Img3,
       picture3: proj8Img4
     },
     {
-      title: "Pepe Card Game",
-      description: "Browser Webpage/Webgame",
+      title: t('projects.project_9.title'), 
+      description: t('projects.project_9.description'),
       imgUrl: proj9Img1,
-      content: "Browser Memory Card Game that includes a single-player mode (with easy, medium and hard difficulties) as well as a local multi-player mode that goes up to 4 players.",
-      keywords: "Keywords: HTML, CSS, JavaScript",
+      content: t('projects.project_9.content'),
+      keywords: t('projects.project_9.keywords'),
       picture1: proj9Img2,
       picture2: proj9Img3,
       picture3: proj9Img4
@@ -139,8 +141,8 @@ export const Work = () => {
         <section className="work" id="my-work">
           <Container>
             <Row>
-              <h2 className="title">My Work</h2>
-              <p className="paragraph">Below you can find some projects I've worked on, including the university ones I'm most proud of as well as my internship ones and independent projects I made for personal (and not only) usage</p>
+              <h2 className="title">{t('projects.h1')}</h2>
+              <p className="paragraph">{t('projects.description')}</p>
             </Row>
             <Row>
               <Col size={12}>

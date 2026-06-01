@@ -6,11 +6,12 @@ import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/css";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { useTranslation } from "react-i18next";
 
 SwiperCore.use([Navigation, Pagination]);
 
 export const WorkCard = ({ title, description, imgUrl, content, keywords, picture1, picture2, picture3, picture4}) => {
-
+  const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   const togglePopup = () => {
@@ -26,7 +27,7 @@ export const WorkCard = ({ title, description, imgUrl, content, keywords, pictur
           {description}
         </CCardText>
       </CCardBody>
-      <button className="cardButton" onClick={togglePopup}>Read More</button>
+      <button className="cardButton" onClick={togglePopup}>{t('readmore')}</button>
       {isOpen && <Popup
       content={<>
         <h3>{title}</h3>

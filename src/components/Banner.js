@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
 import { useState, useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -9,6 +10,7 @@ export const Banner = () => {
     const [index, setIndex] = useState(1);
     const toRotate = [ "Software engineer..." ];
     const period = 2000;
+    const { t, i18n } = useTranslation();
   
     useEffect(() => {
       let ticker = setInterval(() => {
@@ -48,7 +50,7 @@ export const Banner = () => {
             <Container>
             <h1 className="moving-text"><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer..." ]'><span className="wrap">{text}</span></span></h1>
                 <Row className="align-items-center">
-                    <h1 className="intro">{`Hello, I'm Maria. \n Welcome to my portfolio!`}</h1>
+                    <h1 className="intro">{t('banner.greeting')}</h1>
                 </Row>
             </Container>
         </section>

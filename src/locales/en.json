@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects"
+  },
+  "banner": {
+    "greeting": "Hello, I'm Maria. Welcome to my portfolio!"
+  },
+  "aboutme": {
+    "aboutme": "A bit about me",
+    "h1": "• Graduated from:",
+    "u1": "- Cardiff MET University in Software Engineering;",
+    "u2": "- Varna University of Management in Software Systems and Technologies",
+    "h2": "• Mastered in Computer Science (with focus on Cyber Security, Data Analytics and Artificial Intelligence) from:",
+    "h3": "• Worked with several SQL Database Management Systems (both OLTP and OLAP);",
+    "h4": "• Worked in the team that won the 'Best project for DWH integration in retail' award in",
+    "h5": "• Worked on commercialized projects written in Kotlin (for android apps) and C# (for Windows desktop apps);",
+    "h6": "• Have experience with programming and testing in Python.",
+    "cv": " Download my CV: ",
+    "cv_btn": " Curriculum Vitae"
+  },
+  "readmore": "Read More",
+  "projects": {
+    "h1": "My Work",
+    "description": "Below there are some projects I've worked on during my studies and my free time, as well as demos of commercial projects I've participated in and have received permission to publicate",
+    "project_1": {
+      "title": "Filmer",
+      "description": "Discord Bot",
+      "content": "Bot to maintain a database of movies and videogames that are to be watched/played or that have been watched/played already. Moreover, the bot can also randomly decide a movie or game (among the ones saved in the DB).",
+      "keywords": "Keywords: Discord, Python, SQLite DB, Symmetric Key Encryption"
+    }, 
+    "project_2": {
+      "title": "Client Support Bot",
+      "description": "Telegram Bot",
+      "content": "Customer support service for companies and firms that work with injectors and similar technical equipment. The bot is able to send information (upon request) about the firm itself, about injectors and about their availability. It can also save a user's chat ID in order to notify them about an injector's availability later on, in case the injector they looked for was not available when requested.",
+      "keywords": "Keywords: Telegram, Python, SQLite DB, Machine Learning, Jupyter Notebook, Sequential Model"
+    }, 
+    "project_3": {
+      "title": "Unscammed",
+      "description": "Desktop Application",
+      "content": "Software where user input is checked against three different algorithms on whether it is a spam/scam or ham message. Different datasets were used in order to train a Naive-Bayes, a Logistic Regression and a SVM algorithm, which are then imported to the back-end of the application and worked with.",
+      "keywords": "Keywords: Python, PyQT5, Machine Learning, Jupyter Notebook, Naive-Bayes Model, Logistic Regression Model, Support Vector Machine Model"
+    }, 
+    "project_4": {
+      "title": "DWH 'Par'",
+      "description": "DWH and BI Dashboard",
+      "content": "Simulation of the creation of an online shop's Data WareHouse, with its ETL process and BI visualization. Provided below are the Logical ER Model, the DAG's Pipeline and the Dashboard Mockup.",
+      "keywords": "Keywords: DWH, BI, PostgreSQL, Inmon's methodology, ETL, Apache Airflow, PIX BI"
+    }, 
+    "project_5": {
+      "title": "Common Rail Piezo Injector Tester",
+      "description": "Desktop Application",
+      "content": "Software for registering tests of piezoelectric injectors by BOSCH, Denso, VDO/Siemens-Continental (with their reference values, test reports and graphs) of different clients. Aside from saving test results, injectors and client information in the database, the software also allows to export a PDF with the necessary data.",
+      "keywords": "Keywords: C#, Winforms, SQLite DB, Generic Repository Pattern"
+    }, 
+    "project_6": {
+      "title": "Denso QR Coder",
+      "description": "Android Application",
+      "content": "Database of Denso injectors, which allows to CODE inserted test values into the injector code or DECODE the inputted code into test values.",
+      "keywords": "Keywords: Kotlin, Room, Model-View-ViewModel pattern"
+    }, 
+    "project_7": {
+      "title": "Bosch IMA Data",
+      "description": "Android Application",
+      "content": "Database of BOSCH injectors (alphanumeric IMA 6-7-9 and ISA 7), which allows to CODE inserted test values (including ISA letter for ISA 7) into the injector code.",
+      "keywords": "Keywords: Kotlin, Room, Model-View-ViewModel pattern"
+    }, 
+    "project_8": {
+      "title": "Pet Finder",
+      "description": "Android Application",
+      "content": "Android application possibly useful for animal shelters and volunteers. The purpose is to save a route/walk done by the user and add information about stray animals seen during it. The app can be useful to monitor the life of stray animals in the area.",
+      "keywords": "Keywords: Kotlin, Room, Model-View-ViewModel pattern, Google Maps API"
+    }, 
+    "project_9": {
+      "title": "Pepe Card Game",
+      "description": "Browser Webpage/Webgame",
+      "content": "Browser Memory Card Game that includes a single-player mode (with easy, medium and hard difficulties) as well as a local multi-player mode that goes up to 4 players.",
+      "keywords": "Keywords: HTML, CSS, JavaScript"
+    }
+  }
+}

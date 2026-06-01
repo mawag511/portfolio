@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Chi sono",
+    "projects": "Progetti"
+  },
+  "banner": {
+    "greeting": "Ciao, sono Maria. Benvenuto sul mio portfolio!"
+  },
+  "aboutme": {
+    "aboutme": "Qualche informazione su di me",
+    "h1": "• Conseguite le lauree a:",
+    "u1": "- Cardiff MET University in Ingegneria del Software (Software Engineering);",
+    "u2": "- Varna University of Management in Sistemi e Tecnologie Software (Software Systems and Technologies)",
+    "h2": "• Conseguiti i Master in Computer Science (con attenzione a Cyber Security, Data Analytics e Intelligenza Artificiale) a:",
+    "h3": "• Esperienza lavorativa con diversi Sistemi di Gestione di Database SQL (sia OLTP che OLAP);",
+    "h4": "• Membro del team che ha vinto il premio 'Migliore progetto per l'integrazione di DWH nel retail' di",
+    "h5": "• Esperienza lavorativa in progetti commerciali su Kotlin (per applicazioni mobili) e C# (per applicazioni desktop di Windows);",
+    "h6": "• Esperienza lavorativa con programmazione e testing su Python.",
+    "cv": " Scarica il mio CV: ",
+    "cv_btn": " Curriculum Vitae"
+  },
+  "readmore": "Più dettagli",
+  "projects": {
+    "h1": "I miei lavori",
+    "description": "Sotto ci sono dei progetti ai quali ho lavorato durante i miei studi e nel tempo libero, insieme a delle demo di progetti commerciali ai quali ho partecipato, postati con il permesso dei clienti",
+    "project_1": {
+      "title": "Filmer",
+      "description": "Bot per Discord",
+      "content": "Bot per mantenimento di un database per film e videogiochi da guardare/giocare o che sono stati già visti/ai quali si ha già giocato. Il bot riesce anche ad effettuare una scelta casuale di un film o un gioco (tra quelli salvati nel database).",
+      "keywords": "Parole chiave: Discord, Python, SQLite DB, сrittografia a chiave simmetrica"
+    }, 
+    "project_2": {
+      "title": "Client Support Bot",
+      "description": "Bot perTelegram",
+      "content": "Bot per supporto clienti di aziende che lavorano con iniettori e simile attrezzatura tecnica. Ha la possibilità di mandare informazioni, a richiesta, dell'azienda, degli iniettori e della loro disponibilità. Ha anche la funzionalità di salvataggio dell'ID della chat con l'utente per poter inviare informazioni appena vi è disponibilità di un iniettore richiesto in precedenza e non disponibile precedentemente.",
+      "keywords": "Parole chiave: Telegram, Python, SQLite DB, Machine Learning, Jupyter Notebook, modello sequenziale (Sequential Model)"
+    }, 
+    "project_3": {
+      "title": "Unscammed",
+      "description": "Applicazione desktop",
+      "content": "Software dove l'input dell'utente viene controllato da tre difersi algoritmi sulla possibilità di messaggio scam/spam. Per allenare gli algoritmi Naive-Bayes, Logistic Regression e SVM sono stati utilizzati diversi dataset, dopodichè gli algoritmi sono stati importati nel back-end dell'applicazione.",
+      "keywords": "Parole chiave: Python, PyQT5, Machine Learning, Jupyter Notebook, modello Naive-Bayes, modello di regressione logistica (Logistic Regression Model), modello a macchine a vettori di supporto (Support Vector Machine Model)"
+    }, 
+    "project_4": {
+      "title": "DWH 'Par'",
+      "description": "DWH e dahsboard BI",
+      "content": "Simulazione della creazione di una Data WareHouse per un negozio online, assieme al proprio processo ETL e visualizzazione BI. Riportate sotto sono le immagini del modello logico ER, la pipeline del DAG e il mockup della dashboard.",
+      "keywords": "Parole chiave: DWH, BI, PostgreSQL, metodologia di Inmon, ETL, Apache Airflow, PIX BI"
+    }, 
+    "project_5": {
+      "title": "Common Rail Piezo Injector Tester",
+      "description": "Applicazione desktop",
+      "content": "Software per la registrazione di test di iniettori piezoelettrici BOSCH, Denso, VDO/Siemens-Continental (con i loro valori di riferimento, report di test e grafici) di diversi clienti. Oltre a poter salvare nel database le informazioni su risultati test, iniettori e clienti, il software ha anche la possibilità di esportare i dati in un file PDF.",
+      "keywords": "Parole chiave: C#, Winforms, SQLite DB, Generic Repository Pattern"
+    }, 
+    "project_6": {
+      "title": "Denso QR Coder",
+      "description": "Applicazione Android",
+      "content": "Database di iniettori Denso che permette la CODIFICA di valori test nel codice dell'iniettore o la DECODIFICA del codice inserito in valori di test.",
+      "keywords": "Parole chiave: Kotlin, Room, Model-View-ViewModel pattern"
+    }, 
+    "project_7": {
+      "title": "Bosch IMA Data",
+      "description": "Applicazione Android",
+      "content": "Database di iniettori BOSCH (con codifica alfanumerica IMA 6-7-9 e ISA 7), che permette la CODIFICA di valori test (incluso la lettera ISA per ISA 7) nel codice dell'iniettore.",
+      "keywords": "Parole chiave: Kotlin, Room, Model-View-ViewModel pattern"
+    }, 
+    "project_8": {
+      "title": "Pet Finder",
+      "description": "Applicazione Android",
+      "content": "Applicazione Android potenzialmente utile per rifugi di animali e volontari. Il funzionamento prevede il salvataggio di percorsi assieme alle informazioni di animali randagi trovati in essi. L'applicazione può aiutare a monitorare le vite di animali in zona.",
+      "keywords": "Parole chiave: Kotlin, Room, Model-View-ViewModel pattern, Google Maps API"
+    }, 
+    "project_9": {
+      "title": "Gioco di carte con Pepe",
+      "description": "Pagina Web",
+      "content": "Gioco di carte da browser che include una modalità single-player (con livelli di difficoltà: facile, medio e difficile) e una modalità multi-player locale fino a 4 giocatori.",
+      "keywords": "Parole chiave: HTML, CSS, JavaScript"
+    }
+  }
+}
